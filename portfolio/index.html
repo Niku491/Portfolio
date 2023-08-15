@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Niku Kumari Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="nab_bar">
+                <nav>
+                    <div class="left">Niku Portfolio </div>
+                    <ul id="sidemenu">
+                        <li> <a href="#header"> Home</a></li>
+                        <li> <a href="#about"> About</a></li>
+                        <li> <a href="#Skills">Skills</a></li>
+                        <li> <a href="#work">Projects</a></li>
+                        <li> <a href="#footer">Contact Me</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    Hi, My name is <span class="purple"> Niku </span>
+                    <div> and I am a Passionate </div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <a href="#about"> <button class="btn"> Know More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------about_section start--------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\img2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about_title"> About Me</h1>
+                    <p class="about_detail">Hi, I am Niku Kumari, An Open-Source Enthusiast who is a Full-Time learner
+                        and a passionate Web
+                        Designer and
+                        Web Developer. I am a Pre Final Year Student of B.Tech Mechanical Engineering. I love combining
+                        the worlds
+                        of logic and creative design to make eye-catching, accessible and user- friendly websites.<br>
+                        <br>
+                        Technology leads,society follows. The move towards increasing inclusivity and diversity in the
+                        industry the
+                        representation is of importance for me.
+                    </p>
+                    <div class="resume_section">
+                        <a href="images\Resume.pdf" download="Resume" class="resume">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------about_section end------------------------------->
+
+    <!----------------------------------skills_section start----------------------------->
+    <div id="Skills">
+        <div class="container">
+            <h1 class="skills_title"> My Skills </h1>
+            <ul>
+                <li>
+                    <h3>HTML </h3>
+                    <span class="bar"> <span class="HTML"> 80%</span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <span class="bar"> <span class="Css"> 55% </span></span>
+                </li>
+                <li>
+                    <h3>Bootstrap </h3>
+                    <span class="bar"> <span class="Bootstrap"> 50%</span></span>
+                </li>
+                <li>
+                    <h3> Python</h3>
+                    <span class="bar"><span class="Python"> 45% </span></span>
+                </li>
+                <li>
+                    <h3> Django </h3>
+                    <span class="bar"><span class="Django"> 60% </span></span>
+                </li>
+                <li>
+                    <h3> Javascript </h3>
+                    <span class="bar"> <span class="Javascript"> 55% </span></span>
+                </li>
+                <li>
+                    <h3> React js </h3>
+                    <span class="bar"> <span class="React"> 65% </span></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!---------------------------skills_section end---------------------------->
+
+    <!-------------------------------My_work--------------------------------->
+
+    <div id="work">
+        <!-- <div class="container">
+            <h1 class="work_title"> My work </h1>
+            <div class="work_list">
+                <div class="work">
+                    <div class="image">
+                        <img src="images\slider.png" alt="">
+                    </div>
+                    <div class="slider-link">
+                            <a
+                                href="https://github.com/Niku491/Image-slider/tree/85a4245101e9057ddfbda3fed5e32906dc67be94/slider">Image-slider
+                            </a>
+                    </div>
+                </div> -->
+                <!-- <div class="work">
+                    <img src="images\work-2.png" alt="">
+                </div> -->
+                <!-- <div class="work">
+                    <img src="images\work-3.jpg" alt="">
+                </div> -->
+            <!-- </div>
+        </div> -->
+        <h1 class="work_title"> My work</h1>
+        <div class="cards">
+            <div class="image">
+                <img src="images\slider.png">
+            </div>
+            <div class="title">Image-slider</div>
+            <div class="description">
+                <a href="https://github.com/Niku491/Image-slider/tree/85a4245101e9057ddfbda3fed5e32906dc67be94/slider">See Live</a>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="image">
+                <img src="images\noanet_img.jpeg" height="300px" width="300px">
+            </div>
+            <div class="title">noanet</div>
+            <div class="description">
+                <a href="https://github.com/Niku491/Project/tree/ee588f8efa9ea1aa2142b73492bf863908d93a3e/noanet">See Live</a>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="image">
+                <img src="images\cafe.jpeg">
+            </div>
+            <div class="title">Wavecafe(Django Project)</div>
+            <div class="description">
+                <a href="https://github.com/Niku491/Wavecafe/tree/45e40c294101553d3a9d8209708d0023882fb11c/wavecafe">See Live</a>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------My_work section_end-------------------------------- -->
+
+    <!-- -----------------------------contact------------------------------------ -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1>Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>nikukumari491@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone-flip"></i>6267841400</p>
+                    <div class="social_icons">
+                        <a href="https://www.linkedin.com/in/niku-prajapati-175ab327b" class="footer_link">
+                            <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #2861c3;"></i></a>
+                        <a href="https://github.com/Niku491" class="footer_link">
+                            <i class="fa-brands fa-github fa-2xl"></i>
+                        </a>
+                        <!-- <a href="https://profile.indeed.com/p/nikuk-88w03fv"  class="footer_link">
+                            <img src="images\indeed.png" height="40px" width="45px"> </a> -->
+                    </div>
+                </div>
+                <div class="contact_right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit_btn  "> SUBMIT</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy_right">
+            <p>© 2023 - Designed & Developed by Niku Kumari</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 100,
+        });
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwVLhN31fcfgIvrJ9F9m_gOvBTR6KKBbMMRuVEw34C4IV1jVjPsvB9qzE9SM1ik4fmI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = 'Submitted successfully'
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
